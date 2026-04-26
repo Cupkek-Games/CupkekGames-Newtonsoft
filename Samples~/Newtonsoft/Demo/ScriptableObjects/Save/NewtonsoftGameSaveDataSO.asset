@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dd50b6d63bdcf4fb32e1dbea3affc8, type: 3}
+  m_Name: NewtonsoftGameSaveDataSO
+  m_EditorClassIdentifier: 
+  _defaultData:
+    PlayerName: Luna Yuai
+    Gold: 500
+    Diamond: 100
+    Exp: 865
+    Lvl: 12
+    ExpReq: 1200
+    Inventory:
+      _items:
+      - Key:
+          Catalog: 
+          Key: 
+        ID:
+          ValueStr: 
+        Amount: 0
+        BaseMaxStackAmount: 0
+        _featureState: []
+    NotificationHistory:
+      _history: []
+      MaxNotifications: 20
+  _resetOnStart: 1
+  _actualData:
+    PlayerName: Luna Yuai
+    Gold: 500
+    Diamond: 100
+    Exp: 865
+    Lvl: 12
+    ExpReq: 1200
+    Inventory:
+      _items:
+      - Key:
+          Catalog: 
+          Key: 
+        ID:
+          ValueStr: ca26bd3d-6b73-4587-8e24-69fb14c8c1f5
+        Amount: 0
+        BaseMaxStackAmount: 0
+        _featureState: []
+    NotificationHistory:
+      _history: []
+      MaxNotifications: 20
+  references:
+    version: 2
+    RefIds: []

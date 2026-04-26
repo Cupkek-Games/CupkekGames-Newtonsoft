@@ -1,0 +1,19 @@
+{
+	"name": "CupkekGames.Data.Newtonsoft",
+	"rootNamespace": "",
+	"references": [
+		"GUID:a57eb40d9a9e0984a816dda1fdae8adf",
+		"GUID:16594936e6b877b46ad8482af9d5021f",
+		"GUID:c95c4fa533d6fdb47871e2223c77f6d0",
+		"GUID:99af10b529824702946fb144b93bed73"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}

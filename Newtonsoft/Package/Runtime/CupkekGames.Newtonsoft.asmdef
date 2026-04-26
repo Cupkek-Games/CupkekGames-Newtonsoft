@@ -1,0 +1,16 @@
+{
+    "name": "CupkekGames.Newtonsoft",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c95c4fa533d6fdb47871e2223c77f6d0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
