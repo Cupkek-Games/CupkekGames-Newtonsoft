@@ -1,7 +1,11 @@
 using System;
-using CupkekGames.Core;
 using CupkekGames.Data;
-using CupkekGames.Systems;
+using CupkekGames.AddressableAssets;
+using CupkekGames.SceneManagement;
+using CupkekGames.Sequencer;
+using CupkekGames.Services;
+using CupkekGames.Settings;
+using CupkekGames.GameSave;
 using Newtonsoft.Json;
 using UnityEngine;
 

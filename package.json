@@ -1,14 +1,14 @@
-{
+﻿{
   "name": "com.cupkekgames.newtonsoft",
   "displayName": "CupkekGames Newtonsoft",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "CupkekGames",
     "url": "https://www.docs.cupkek.games"
   },
   "unity": "6000.0",
   "documentationUrl": "https://docs.cupkek.games/",
-  "description": "Newtonsoft-Json serialization layer for CupkekGames packages: SerializationManager, contract resolvers, custom converters, type providers, and a Data ↔ Newtonsoft adapter (CupkekGames.Data.Newtonsoft) so IData / DataSO instances serialize cleanly. Hard dep on com.unity.nuget.newtonsoft-json.",
+  "description": "Newtonsoft-Json serialization layer for CupkekGames packages: SerializationManager, contract resolvers, custom converters, type providers, and a Data \u2194 Newtonsoft adapter (CupkekGames.Data.Newtonsoft) so IData / DataSO instances serialize cleanly. Hard dep on com.unity.nuget.newtonsoft-json.",
   "keywords": [
     "Newtonsoft",
     "JSON",
@@ -17,9 +17,13 @@
     "CupkekGames"
   ],
   "dependencies": {
-    "com.cupkekgames.core": "0.1.0",
     "com.cupkekgames.data": "0.1.0",
-    "com.cupkekgames.servicelocator": "0.1.0",
+    "com.cupkekgames.services": "0.1.0",
+    "com.cupkekgames.addressableassets": "0.1.0",
+    "com.cupkekgames.scenemanagement": "0.1.0",
+    "com.cupkekgames.sequencer": "0.1.0",
+    "com.cupkekgames.settings": "0.1.0",
+    "com.cupkekgames.gamesave": "0.1.0",
     "com.unity.nuget.newtonsoft-json": "3.2.2"
   },
   "samples": [
