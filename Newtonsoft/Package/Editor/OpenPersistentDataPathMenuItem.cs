@@ -6,7 +6,8 @@ namespace CupkekGames.Newtonsoft.Editor
 {
     public class OpenPersistentDataPathMenuItem
     {
-        [MenuItem("Tools/CupkekGames/Open Persistent Data Path", false, 6)]
+        // Priority 401 — group 5: debug + dev utilities (Reveal in Finder/Explorer).
+        [MenuItem("Tools/CupkekGames/Open Persistent Data Path", false, 401)]
         public static void OpenPersistentDataPath()
         {
             string path = Application.persistentDataPath;
