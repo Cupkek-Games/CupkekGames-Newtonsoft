@@ -9,6 +9,7 @@ namespace CupkekGames.Data.Newtonsoft
     public class DataSerializationTypeProviderSO : SerializationTypeProviderSO
     {
         [SerializeField] private bool _serializedGuidConverter = true;
+        [SerializeField] private bool _catalogKeyConverter = true;
 
         public override IList<JsonConverter> GetConverters()
         {
@@ -16,6 +17,9 @@ namespace CupkekGames.Data.Newtonsoft
 
             if (_serializedGuidConverter)
                 converters.Add(new SerializedGuidConverter());
+
+            if (_catalogKeyConverter)
+                converters.Add(new CatalogKeyConverter());
 
             return converters;
         }
