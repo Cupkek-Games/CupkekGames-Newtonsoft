@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using CupkekGames.Services;
 using Newtonsoft.Json.Linq;
+using Unity.Scripting.LifecycleManagement;
 
 namespace CupkekGames.Newtonsoft
 {
-    public class SaveMigrator
+    public partial class SaveMigrator
     {
         private readonly Dictionary<int, Action<JObject>> _migrations;
         private readonly int _currentVersion;
@@ -16,6 +17,7 @@ namespace CupkekGames.Newtonsoft
             _migrations = migrations ?? throw new ArgumentNullException(nameof(migrations));
         }
 
+        [AutoStaticsCleanup]
         private static SerializationManager _manager;
         private static SerializationManager Manager => _manager ??= ServiceLocator.Get<SerializationManager>();
 

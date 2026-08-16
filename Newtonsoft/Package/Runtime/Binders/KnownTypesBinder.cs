@@ -1,6 +1,7 @@
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
+using Unity.Scripting.LifecycleManagement;
 
 namespace CupkekGames.Newtonsoft
 {
@@ -9,8 +10,9 @@ namespace CupkekGames.Newtonsoft
     /// Everything else defers to <see cref="DefaultSerializationBinder"/> so generics like
     /// <c>List&lt;T&gt;</c> get a full, round-trippable type name instead of ambiguous <c>List`1</c>.
     /// </summary>
-    public class KnownTypesBinder : ISerializationBinder
+    public partial class KnownTypesBinder : ISerializationBinder
     {
+        [NoAutoStaticsCleanup]
         private static readonly ISerializationBinder DefaultBinder = new DefaultSerializationBinder();
 
         public IList<Type> KnownTypes { get; set; }

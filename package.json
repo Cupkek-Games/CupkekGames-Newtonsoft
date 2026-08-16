@@ -6,7 +6,7 @@
     "name": "CupkekGames",
     "url": "https://www.docs.cupkek.games"
   },
-  "unity": "6000.0",
+  "unity": "6000.5",
   "documentationUrl": "https://docs.cupkek.games/",
   "description": "Newtonsoft-Json serialization layer for CupkekGames packages: SerializationManager, contract resolvers, custom converters, type providers, and a Data â†” Newtonsoft adapter (CupkekGames.Data.Newtonsoft) so IData / DataSO instances serialize cleanly. Hard dep on com.unity.nuget.newtonsoft-json.",
   "keywords": [
