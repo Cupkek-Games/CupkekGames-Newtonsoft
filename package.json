@@ -1,7 +1,7 @@
 {
   "name": "com.cupkekgames.newtonsoft",
   "displayName": "CupkekGames Newtonsoft",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "CupkekGames",
     "url": "https://www.docs.cupkek.games"
@@ -21,8 +21,8 @@
     "com.cupkekgames.services": "0.2.0",
     "com.cupkekgames.addressableassets": "0.2.0",
     "com.cupkekgames.scenemanagement": "0.3.0",
-    "com.cupkekgames.sequencer": "0.3.0",
-    "com.cupkekgames.settings": "0.3.1",
+    "com.cupkekgames.sequencer": "0.3.1",
+    "com.cupkekgames.settings": "0.3.2",
     "com.cupkekgames.gamesave": "0.4.0",
     "com.unity.nuget.newtonsoft-json": "3.2.2"
   }
